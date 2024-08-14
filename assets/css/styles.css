@@ -1,0 +1,20 @@
+.numberInput::-webkit-outer-spin-button,
+.numberInput::-webkit-inner-spin-button
+{
+   -webkit-appearance: none;
+   margin: 0;
+}
+.without{
+   display: none;
+}
+.symbol-error{
+   background-color: #d12222;
+   color: white;
+}
+.symbol{
+   background-color: hsl(202, 86%, 94%);
+   color: hsl(200, 24%, 40%);
+}
+.input-error{
+   border: 1px solid #d12222;
+}
